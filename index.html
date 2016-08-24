@@ -107,6 +107,21 @@
         </section>
 
         <section>
+          <h2>¿Services, factories o providers?</h2>
+          <ul>
+            <li class="fragment">Todos son singletons, pero...</li>
+            <li class="fragment">Los <strong>servicios</strong> se definen con funciones constructoras. El singleton es creado usando el operador new sobre la función.</li>
+            <li class="fragment">Las <strong>factories</strong> se definen con funciones que retornan un objeto de JS. El singleton se crea ejecutando la función.</li>
+            <li class="fragment">Los <strong>providers</strong> se definen con funciones construtoras (igual que los servicios). La diferencia es que son el único tipo de servicio que puede inyectarse en la función .config() de la aplicación.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Componentes</h2>
+          <p>Existen desde Angular 1.5 y son un tipo especial de directiva, más simple de configurar, y que hace mucho más fácil la migración de una aplicación Angular 1.x a Angular 2 (arquitectura basada en componentes).</p>
+        </section>
+
+        <section>
           <h2>Poniendo todo en contexto</h2>
         </section>
 
@@ -125,7 +140,7 @@
           <h2>FIN.</h2>
         </section>
 
-        <section>
+        <!--<section>
           <section data-background="#dddddd">
             <h2>Slide Backgrounds</h2>
             <p>
@@ -190,6 +205,8 @@ function linkify( selector ) {
           </code></pre>
           <p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
         </section>
+
+        -->
       </div>
 
     </div>
